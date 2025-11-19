@@ -14,7 +14,7 @@ from twilio.rest import Client  # Helps us send WhatsApp/SMS messages
 
 # These are secret keys given by Twilio so the app can send messages
 TWILIO_ACCOUNT_SID = "AC41a953a1d2f3a9be9da4360cab79dc03"
-TWILIO_AUTH_TOKEN = "734aa55394c06e415f1e1599756e8433"
+TWILIO_AUTH_TOKEN = "5e864cd7c1be6d197cd83cedb4a08cbc"
 
 # Twilio numbers used to send WhatsApp and SMS
 TWILIO_WHATSAPP_FROM = "whatsapp:+14155238886"
