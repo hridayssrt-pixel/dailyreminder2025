@@ -13,12 +13,12 @@ from twilio.rest import Client  # Helps us send WhatsApp/SMS messages
 # --------------------------
 
 # These are secret keys given by Twilio so the app can send messages
-TWILIO_ACCOUNT_SID = "ACe855d3519d798fdb8d4017b8692f0860"
-TWILIO_AUTH_TOKEN = "b28ef14855ce695a499ce9e669578180"
+TWILIO_ACCOUNT_SID = "AC41a953a1d2f3a9be9da4360cab79dc03"
+TWILIO_AUTH_TOKEN = "734aa55394c06e415f1e1599756e8433"
 
 # Twilio numbers used to send WhatsApp and SMS
 TWILIO_WHATSAPP_FROM = "whatsapp:+14155238886"
-TWILIO_SMS_FROM = "+18542013278"
+TWILIO_SMS_FROM = "+16058007660"
 
 # This makes a Twilio helper object that can send messages
 client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
